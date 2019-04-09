@@ -28,7 +28,7 @@ img = Image.new("RGB", size, WHITE)
 
 draw = ImageDraw.Draw(img)
 
-fnt = ImageFont.truetype("/usr/share/fonts/ttf/Hack-Bold.ttf", 40)
+fnt = ImageFont.truetype("/usr/share/fonts/ttf/Hack-Bold.ttf", 40) # Choose your font
 
 draw.text((15, 15), "MLT-3", font=fnt, fill=BLACK)
 
